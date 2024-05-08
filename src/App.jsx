@@ -28,9 +28,9 @@ function App() {
             });
     };
     return (
-        <>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-10">Simple CRUD</h1>
-            <div className="container lg:max-w-xl mx-auto">
+        <div className="py-8 md:py-10">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold text-slate-900 mb-10">Simple CRUD</h1>
+            <div className="w-full lg:max-w-xl mx-auto">
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <div className="w-full flex flex-col gap-1 items-start">
                         <label htmlFor="name" className="text-sm md:text-base text-gray-700">
@@ -61,7 +61,7 @@ function App() {
                     </button>
                 </form>
             </div>
-        </>
+        </div>
     );
 }
 

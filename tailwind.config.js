@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
+    container: {
+      center: true,
+    }
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }

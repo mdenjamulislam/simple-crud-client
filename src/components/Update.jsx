@@ -31,7 +31,7 @@ const Update = () => {
     };
 
     return (
-        <div className="container mx-auto mt-10">
+        <div className="container mx-auto my-10">
             <h3 className="text-2xl text-center">
                 Update Information of <span className="font-bold">{loadedUser.name}</span>
             </h3>

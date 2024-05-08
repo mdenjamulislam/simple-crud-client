@@ -27,7 +27,7 @@ const Users = () => {
     }
 
     return (
-        <div className="container mx-auto mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="container mx-auto my-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {users.map((user) => {
                 return (
                     <div key={user._id} className="p-4 bg-white shadow-md rounded-xl space-y-3">
